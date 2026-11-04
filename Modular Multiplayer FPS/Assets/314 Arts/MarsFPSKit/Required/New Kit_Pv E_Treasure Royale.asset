@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d62ba2b55d014d24687ffeb05f9ded2c, type: 3}
+  m_Name: New Kit_Pv E_Treasure Royale
+  m_EditorClassIdentifier: 
+  gameModeName: Treasure Royale
+  maps:
+  - {fileID: 11400000, guid: 9b8f8eb4a0b068b48993b440cbc5f1f0, type: 2}
+  coopPlayerAmount: 4
+  menuPrefab: {fileID: 3708633093598800005, guid: ec069ed34bd73fa4897ca2e96349c297,
+    type: 3}
+  hudPrefab: {fileID: 0}
+  spawnSystemToUse: {fileID: 11400000, guid: 06bd9c00b4bfd8a40b1a5a854643370b, type: 2}
+  botManagerToUse: {fileID: 0}
+  botControlOverride: {fileID: 0}
+  matchDurationSeconds: 900
+  eraIds: []
+  spawnPlayerModels:
+  - information: {fileID: 11400000, guid: bbd8a3f8f988c7e48a4a8662c1cfe6e2, type: 2}
+    customization: 
+  spawnLoadouts:
+  - loadoutWeapons:
+    - goesToSlot: 0
+      weaponID: 0
+      attachments: 0000000000000000
+    - goesToSlot: 1
+      weaponID: 1
+      attachments: 
+    - goesToSlot: 2
+      weaponID: 7
+      attachments: 
+    - goesToSlot: 3
+      weaponID: 4
+      attachments: 
+    - goesToSlot: 4
+      weaponID: 5
+      attachments: 
+    teamLoadout: []

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca56eafab49c7947b7b594c995450e1, type: 3}
+  m_Name: SimpleCombat
+  m_EditorClassIdentifier: 
+  enemySpotted:
+  - {fileID: 8300000, guid: a227e9dac67bcf74bb6f1990e1247bd3, type: 3}
+  - {fileID: 8300000, guid: c9c19abdf436a434198ee2e0572735a5, type: 3}
+  - {fileID: 8300000, guid: a227e9dac67bcf74bb6f1990e1247bd3, type: 3}
+  - {fileID: 8300000, guid: b40054031e868624383c3b247b12c838, type: 3}
+  - {fileID: 8300000, guid: da3f35c4afd2a924d998b067c8af3bdd, type: 3}
+  damageTakenProjectile:
+  - {fileID: 8300000, guid: 81b3f5cbce254df479b19b7d2f84cf25, type: 3}
+  - {fileID: 8300000, guid: f23470243c234ed4ab50913afec31406, type: 3}
+  - {fileID: 8300000, guid: 594165ebfe49ee748a6598f97ddb593b, type: 3}
+  - {fileID: 8300000, guid: 13e186547fd224146a18c0fb8602e21e, type: 3}
+  - {fileID: 8300000, guid: 2f5b86795d92eed4a81c5b5e03661c11, type: 3}
+  - {fileID: 8300000, guid: 58f0a5879ef5de04ebc0c07d97510541, type: 3}
+  - {fileID: 8300000, guid: fee83e0aedd3bd84d8e860abd8b401f3, type: 3}
+  damageTakenOthers:
+  - {fileID: 8300000, guid: be1cff2ec9bba1e48abcac5214959af0, type: 3}
+  - {fileID: 8300000, guid: 453e805af0825df4d8f03689023bb308, type: 3}
+  - {fileID: 8300000, guid: 2bc9a776074fd514db3c1c9da03516b8, type: 3}
+  - {fileID: 8300000, guid: f3ebf1fadbeb7d74d87ad9b64bd4c801, type: 3}
+  enemyKilled:
+  - {fileID: 8300000, guid: 6877e7ed0eadfba4eb3edc09b8194db7, type: 3}
+  - {fileID: 8300000, guid: c0a6cd4ee256b384c91f8a567d152fb6, type: 3}
+  - {fileID: 8300000, guid: b48ac7899bfb8fd40928de646324bf9c, type: 3}
+  - {fileID: 8300000, guid: d54f7fcbb5e8de8408200d22464825b1, type: 3}
+  - {fileID: 8300000, guid: fcdcbd7731ba3d640a46c8e5b387ca7e, type: 3}
+  reloading:
+  - {fileID: 8300000, guid: 88510212060038e4fa40f022db313d07, type: 3}
+  - {fileID: 8300000, guid: d1c2afe48f902d64c85a3e0cc58285fd, type: 3}
+  - {fileID: 8300000, guid: c1da34e2525ed72459531d53ab6507f0, type: 3}
+  - {fileID: 8300000, guid: 6186a2e994c3869419630e33a295cc49, type: 3}
+  - {fileID: 8300000, guid: 6186a2e994c3869419630e33a295cc49, type: 3}
+  grenadeThrown:
+  - clips:
+    - {fileID: 8300000, guid: fae4e851d9e645945b166e141960971b, type: 3}
+    - {fileID: 8300000, guid: cdb73438afbe2614d98ba4ee803812b2, type: 3}
+    - {fileID: 8300000, guid: b80e636ae8ee95040a2ae7362a05ab5d, type: 3}
+  meleeUsed:
+  - clips:
+    - {fileID: 8300000, guid: 84d4ac30a366bf14dbc6607c464554eb, type: 3}
+    - {fileID: 8300000, guid: e0bfb35a1086cbe40a42e19d8561703a, type: 3}
+    - {fileID: 8300000, guid: 64c3d33422730c742b8880e5b3f4c5e9, type: 3}
+  deathSounds:
+  - clips:
+    - {fileID: 8300000, guid: 1c972668024d18c49a40f9a52100a5ab, type: 3}
+  - clips:
+    - {fileID: 8300000, guid: 8bdead77d9e700f43a9a722b6d07df32, type: 3}
+  - clips:
+    - {fileID: 8300000, guid: 44bfa1382f0d8fb4885ec77c846d404f, type: 3}
+    - {fileID: 8300000, guid: cd7c890c8ddc4094da5d78ef32fc8d94, type: 3}
+    - {fileID: 8300000, guid: 9f3e44b43c89955438517dc0bb91a3de, type: 3}
+  - clips:
+    - {fileID: 8300000, guid: 3898a8cfc2aa55e48ad2764dab18449a, type: 3}
+    - {fileID: 8300000, guid: 033cd3ba0317f1f4f860a3fc9d50d464, type: 3}
+    - {fileID: 8300000, guid: 2960428037a3b454290809ff569d6233, type: 3}
+  - clips:
+    - {fileID: 8300000, guid: 9797fb1788a21cc4aad9344e6c7399ef, type: 3}
+    - {fileID: 8300000, guid: 354864a894afb404eaf2db16bf699ddf, type: 3}
+    - {fileID: 8300000, guid: 05ade8b750414d84e9f492de8941a83e, type: 3}

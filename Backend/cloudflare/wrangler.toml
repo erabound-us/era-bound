@@ -1,0 +1,12 @@
+name = "treasure-royale-hub"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding = "TR_DB"
+database_name = "treasure-royale"
+database_id = "8f4691e4-54c2-4065-8e8e-1b2320f674bb"
+preview_database_id = "local"                   # enables wrangler dev --local with D1
+
+# Secrets set via CLI — never commit:
+# wrangler secret put GROQ_API_KEY

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2292126c0c8e5d849ac77f6fcc92a857, type: 3}
+  m_Name: Airstrike
+  m_EditorClassIdentifier: 
+  unlockedAtKills: 1
+  hudDisplaySprite: {fileID: 21300000, guid: c8cf4b149b9e0254883726ffdf53d9a6, type: 3}
+  menuPreviewText: Unleash hell above your enemies!
+  menuPreviewSprite: {fileID: 21300000, guid: c8cf4b149b9e0254883726ffdf53d9a6, type: 3}
+  useAnimation: 1
+  airstrikePrefab: {fileID: 1380019655628628, guid: be1a03c0dc054e94b9943a715c6b2014,
+    type: 3}
+  explosionPrefab: {fileID: 1254903906181738, guid: 75fc8f75fa03b2c4eb72dc89be1bf399,
+    type: 3}

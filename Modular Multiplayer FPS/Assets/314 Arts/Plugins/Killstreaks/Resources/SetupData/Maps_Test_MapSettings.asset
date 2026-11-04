@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 320438f2130625a42aa176b33f08d3af, type: 3}
+  m_Name: Maps_Test_MapSettings
+  m_EditorClassIdentifier: 
+  sceneName: Maps_Test
+  uav:
+    startPosition:
+      pos: {x: 750, y: 70, z: 200}
+      rot: {x: 0, y: -90, z: 0}
+    circlingStartPosition:
+      pos: {x: 200, y: 70, z: 200}
+      rot: {x: 0, y: -90, z: 0}
+    circlingEndPosition:
+      pos: {x: -200, y: 70, z: 200}
+      rot: {x: 0, y: -90, z: 0}
+    endPosition:
+      pos: {x: -750, y: 70, z: 200}
+      rot: {x: 0, y: -90, z: 0}
+    uavArrivalTime: 5
+    uavLifeTime: 20
+    uavDepartureTime: 5
+    xpGainedUponDestruction: 100
+    scannerStartPos:
+      pos: {x: -250, y: 0, z: 0}
+      rot: {x: 0, y: 0, z: 0}
+    scannerEndPos:
+      pos: {x: 250, y: 0, z: 0}
+      rot: {x: 0, y: 0, z: 0}
+    scannerTime: 5
+  airstrike:
+    planePrefab: {fileID: 1638331262775680, guid: 67e4b42b8641ecd4889010d2df7c288a,
+      type: 2}
+    amountOfPlanes: 3
+    planeSpawnTime: 1.5
+    planeAltitude: 30
+    planeSpeed: 100
+    spawnPointDistance: 400
+    distanceAtWhichDropStats: 10
+    amountOfBombs: 6
+    timeBetweenBombDrops: 0.3
+    bombPrefab: {fileID: 1631076071035084, guid: 963c938a46c60a14593966a0d10a328f,
+      type: 2}
+    bombDropStartVelocity: {x: 0, y: -20, z: 0}
+    xpGainedUponDestruction: 100
+  helicopter:
+    helicopterLiveTime: 60
+    helicopterHoveringTime: {x: 3, y: 6}
+    helicopterSmooth: 5
+    helicopterSpeedEvenSetAtDistance: 30
+    hoveringPoints:
+    - {x: -0.20576033, y: 20, z: -21.811312}
+    - {x: 23.045914, y: 20, z: -1.8518988}
+    - {x: 4.73264, y: 20, z: 20.782482}
+    - {x: -22.634373, y: 20, z: -0.20577018}
+    - {x: -28.395847, y: 20, z: -30.453539}
+    - {x: 28.190105, y: 20, z: -27.367025}
+    - {x: 32.922737, y: 20, z: 21.811321}
+    - {x: -23.04591, y: 20, z: 24.074757}
+    - {x: 0.8230711, y: 20, z: 0.000008895993}
+    xpGainedUponDestruction: 100

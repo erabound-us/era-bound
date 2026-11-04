@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86231388bf7233d42844362e55dd829a, type: 3}
+  m_Name: Radio
+  m_EditorClassIdentifier: 
+  weaponName: Radio
+  weaponPicture: {fileID: 0}
+  weaponHudPicture: {fileID: 0}
+  weaponQuickUsePicture: {fileID: 0}
+  weaponKillfeedImage: {fileID: 0}
+  weaponType: Melee
+  weaponLoadoutSubCategory: Assault Rifle
+  canFitIntoSlots: 00000000
+  levelToUnlockAt: -1
+  unlockImage: {fileID: 0}
+  firstPersonPrefab: {fileID: 1165817325432702, guid: db8676ab19145ca40bd6382ddcca2c6c,
+    type: 3}
+  thirdPersonPrefab: {fileID: 1496710394957530, guid: 9c385dfd1ce63484a83c4be5eb4937fc,
+    type: 3}
+  dropPrefab: {fileID: 0}
+  thirdPersonAnimType: Melee
+  drawTime: 0.5
+  putawayTime: 0.5
+  deathSoundCategory: 4
+  springPosConfig:
+    stiffness: {x: 0.1, y: 0.1, z: 0.1}
+    damping: {x: 0.3, y: 0.3, z: 0.3}
+    lerpSpeed: 0
+  springRotConfig:
+    stiffness: {x: 0.1, y: 0.1, z: 0.1}
+    damping: {x: 0.3, y: 0.3, z: 0.3}
+    lerpSpeed: 0
+  primaryAttack: 2
+  primaryAttackSettings:
+    stabDamage: 50
+    stabPenetrationPower: 2
+    stabReach: 2
+    stabHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    stabRagdollForce: 15000
+    stabWindupAnimationName: Stab Windup
+    stabWindupSound: {fileID: 0}
+    stabWindupTime: 0.833
+    stabAnimationHitName: Stab Hit
+    stabHitSound: {fileID: 0}
+    stabHitTime: 1
+    stabAnimationHitObjectName: Stab Hit
+    stabHitObjectSound: {fileID: 0}
+    stabHitObjectTime: 1
+    stabAnimationMissName: Stab Hit
+    stabMissSound: {fileID: 0}
+    stabMissTime: 1
+    chargeDamageStart: 10
+    chargeDamageCharged: 90
+    chargePenetrationPower: 2
+    chargeReach: 2
+    chargeHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    chargeRagdollForce: 500
+    chargeChargeAnimation: Charge
+    chargeChargeSound: {fileID: 0}
+    chargeChargeTime: 0.967
+    chargeWindupAnimationName: Charge Windup
+    chargeWindupSound: {fileID: 0}
+    chargeWindupTime: 0.2
+    chargeAnimationHitName: Charge Hit
+    chargeHitSound: {fileID: 0}
+    chargeHitTime: 1.167
+    chargeAnimationHitObjectName: Charge Hit
+    chargeHitObjectSound: {fileID: 0}
+    chargeHitObjectTime: 1.167
+    chargeAnimationMissName: Charge Hit
+    chargeMissSound: {fileID: 0}
+    chargeMissTime: 1.167
+    healTimeOne: 2
+    healTimeTwo: 2
+    healAmount: 5
+    healStartAmount: 2
+    healAnimationName: Heal
+    healSound: {fileID: 0}
+    combos: []
+  secondaryAttack: 2
+  secondaryAttackSettings:
+    stabDamage: 50
+    stabPenetrationPower: 2
+    stabReach: 2
+    stabHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    stabRagdollForce: 500
+    stabWindupAnimationName: Stab Windup
+    stabWindupSound: {fileID: 0}
+    stabWindupTime: 0.3
+    stabAnimationHitName: Stab Hit
+    stabHitSound: {fileID: 0}
+    stabHitTime: 0.5
+    stabAnimationHitObjectName: Stab Hit Object
+    stabHitObjectSound: {fileID: 0}
+    stabHitObjectTime: 0.5
+    stabAnimationMissName: Stab Miss
+    stabMissSound: {fileID: 0}
+    stabMissTime: 0.5
+    chargeDamageStart: 10
+    chargeDamageCharged: 90
+    chargePenetrationPower: 2
+    chargeReach: 2
+    chargeHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    chargeRagdollForce: 15000
+    chargeChargeAnimation: Charge
+    chargeChargeSound: {fileID: 0}
+    chargeChargeTime: 0.967
+    chargeWindupAnimationName: Charge Windup
+    chargeWindupSound: {fileID: 0}
+    chargeWindupTime: 0.2
+    chargeAnimationHitName: Charge Hit
+    chargeHitSound: {fileID: 0}
+    chargeHitTime: 1.167
+    chargeAnimationHitObjectName: Charge Hit
+    chargeHitObjectSound: {fileID: 0}
+    chargeHitObjectTime: 1.167
+    chargeAnimationMissName: Charge Hit
+    chargeMissSound: {fileID: 0}
+    chargeMissTime: 1.167
+    healTimeOne: 2
+    healTimeTwo: 2
+    healAmount: 5
+    healStartAmount: 2
+    healAnimationName: Heal
+    healSound: {fileID: 0}
+    combos: []
+  quickAttack: 2
+  quickAttackSettings:
+    stabDamage: 75
+    stabPenetrationPower: 2
+    stabReach: 2
+    stabHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    stabRagdollForce: 15000
+    stabWindupAnimationName: Quick Windup
+    stabWindupSound: {fileID: 0}
+    stabWindupTime: 0.2
+    stabAnimationHitName: Quick Hit
+    stabHitSound: {fileID: 0}
+    stabHitTime: 0.3
+    stabAnimationHitObjectName: Quick Hit
+    stabHitObjectSound: {fileID: 0}
+    stabHitObjectTime: 0.3
+    stabAnimationMissName: Quick Hit
+    stabMissSound: {fileID: 0}
+    stabMissTime: 0.3
+    chargeDamageStart: 10
+    chargeDamageCharged: 90
+    chargePenetrationPower: 2
+    chargeReach: 2
+    chargeHalfExtents: {x: 0.1, y: 0.1, z: 1}
+    chargeRagdollForce: 500
+    chargeChargeAnimation: Charge Windup
+    chargeChargeSound: {fileID: 0}
+    chargeChargeTime: 0.3
+    chargeWindupAnimationName: Charge Windup
+    chargeWindupSound: {fileID: 0}
+    chargeWindupTime: 0.3
+    chargeAnimationHitName: Charge Hit
+    chargeHitSound: {fileID: 0}
+    chargeHitTime: 0.5
+    chargeAnimationHitObjectName: Charge Hit Object
+    chargeHitObjectSound: {fileID: 0}
+    chargeHitObjectTime: 0.5
+    chargeAnimationMissName: Charge Miss
+    chargeMissSound: {fileID: 0}
+    chargeMissTime: 0.5
+    healTimeOne: 2
+    healTimeTwo: 2
+    healAmount: 5
+    healStartAmount: 2
+    healAnimationName: Heal
+    healSound: {fileID: 0}
+    combos: []
+  quickAttackSkipsPutaway: 1
+  drawSound: {fileID: 0}
+  putawaySound: {fileID: 0}
+  voiceMeleeSoundID: 0
+  weaponDelayBaseAmount: 1
+  weaponDelayMaxAmount: 0.02
+  weaponDelayAimingMultiplier: 0.3
+  weaponDelaySmooth: 3
+  weaponTiltEnabled: 1
+  weaponTiltIntensity: 5
+  weaponTiltReturnSpeed: 3
+  fallDownAmount: 10
+  fallDownMinOffset: -6
+  fallDownMaxoffset: 6
+  fallDownTime: 0.1
+  fallDownReturnSpeed: 1
+  genericGunAnimatorControllerPrefab: {fileID: 1896438800841234, guid: 32d35967d844b94479b79cb464e4bea5,
+    type: 3}
+  useGenericWalkAnim: 1
+  useGenericRunAnim: 1
+  gameGunID: 7

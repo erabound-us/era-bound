@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 33f68623-68b6-4008-b721-d7710d8d0d30
+    AppIdChat: 33f68623-68b6-4008-b721-d7710d8d0d30
+    AppIdVoice: 33f68623-68b6-4008-b721-d7710d8d0d30
+    AppVersion: 07.09.2021
+    UseNameServer: 1
+    FixedRegion: us
+    Server: 
+    Port: 0
+    Protocol: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ApplyBlindNetwork
+  - ApplyDamageNetwork
+  - ApplyDamageNetwork
+  - ChangeState
+  - GrenadePullPinNetwork
+  - GrenadeThrowNetwork
+  - MeleeChargeNetwork
+  - MeleeStabNetwork
+  - MovementPlayAnimation
+  - MovementPlaySound
+  - PickedUp
+  - PickedUp
+  - PlayVoiceLine
+  - PlayVoiceLine
+  - ReplaceWeapon
+  - WeaponBoltActionFireNetwork
+  - WeaponBurstFireNetwork
+  - WeaponFirePhysicalBulletOthers
+  - WeaponProceduralReloadNetwork
+  - WeaponRaycastHit
+  - WeaponReloadNetwork
+  - WeaponSemiFireNetwork
+  - TriggerBarrel
+  - DamageBarrel
+  - MeleeHealNetwork
+  - DisplayHitmarker
+  - FireMinigun
+  - MinigunRaycastHit
+  - Unlock
+  - RpcAttack
+  - RpcDamage
+  - RpcRoundEnd
+  - RpcRoundStart
+  - WeaponRestockAll
+  - RPC_ApplyScale
+  - RPC_AssignDropZone
+  - RPC_AssignTeamAndSpawn
+  - RPC_AwardConsolation
+  - RPC_BeginChannel
+  - RPC_BroadcastReset
+  - RPC_CancelChannel
+  - RPC_ExtractionComplete
+  - RPC_InviteSent
+  - RPC_KickedPrivateRoom
+  - RPC_RelicAwarded
+  - RPC_RelicPickedUp
+  - RPC_RepeatBroadcast
+  - RPC_RequestDropZone
+  - RPC_RequestToggle
+  - RPC_SendInvite
+  - RPC_SyncProgress
+  - RPC_SyncState
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1

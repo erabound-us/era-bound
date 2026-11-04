@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41fda48a500eb1418a83dfa3ae66280, type: 3}
+  m_Name: EraAssetConfig
+  m_EditorClassIdentifier: 
+  eras:
+  - era: deep_prehistoric
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    - {fileID: 140492000370432750, guid: 9fb4ef7fb64dc4c408964e74ed2fe396, type: 3}
+    - {fileID: 2272102020387107810, guid: 7368b63df0629874cbee543535faae35, type: 3}
+    - {fileID: 7714441738996144815, guid: 2c610027744c00740ac082101ba71d40, type: 3}
+    - {fileID: 8282720113453043954, guid: fce807852a4acca419eeb3d5fd9a8ca7, type: 3}
+    - {fileID: 4090555171948344373, guid: c17535c038470134c9ad171e5f3ec2cc, type: 3}
+    - {fileID: 7134262039593392684, guid: 076ddcf3e89253c479418a861439e537, type: 3}
+    - {fileID: 2207132655017824807, guid: 793efaa16ff11374ba78433306a0cf92, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5335472702154139955, guid: ddb38b23b1fc63a479540a85ad753b8c, type: 3}
+    - {fileID: 1239679686346599296, guid: 29d14d81739277544976c1c0fad6c8c2, type: 3}
+    - {fileID: 7087206149285152842, guid: 94055c3936868454aa1b6ea44cc0bb11, type: 3}
+    - {fileID: 8019462622708141387, guid: 1496c843ff50fd245afcb63247a1b541, type: 3}
+    - {fileID: 4818764101993711798, guid: c7d8b5f41e0959c48bf00d10e779c62b, type: 3}
+    - {fileID: 6223919236092602174, guid: 1118526e2bbb1014caf1b3207a346fe5, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}
+  - era: prehistoric
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    - {fileID: 140492000370432750, guid: 9fb4ef7fb64dc4c408964e74ed2fe396, type: 3}
+    - {fileID: 2272102020387107810, guid: 7368b63df0629874cbee543535faae35, type: 3}
+    - {fileID: 7714441738996144815, guid: 2c610027744c00740ac082101ba71d40, type: 3}
+    - {fileID: 8282720113453043954, guid: fce807852a4acca419eeb3d5fd9a8ca7, type: 3}
+    - {fileID: 4090555171948344373, guid: c17535c038470134c9ad171e5f3ec2cc, type: 3}
+    - {fileID: 7134262039593392684, guid: 076ddcf3e89253c479418a861439e537, type: 3}
+    - {fileID: 2207132655017824807, guid: 793efaa16ff11374ba78433306a0cf92, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5335472702154139955, guid: ddb38b23b1fc63a479540a85ad753b8c, type: 3}
+    - {fileID: 1239679686346599296, guid: 29d14d81739277544976c1c0fad6c8c2, type: 3}
+    - {fileID: 7087206149285152842, guid: 94055c3936868454aa1b6ea44cc0bb11, type: 3}
+    - {fileID: 8019462622708141387, guid: 1496c843ff50fd245afcb63247a1b541, type: 3}
+    - {fileID: 4818764101993711798, guid: c7d8b5f41e0959c48bf00d10e779c62b, type: 3}
+    - {fileID: 6223919236092602174, guid: 1118526e2bbb1014caf1b3207a346fe5, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}
+  - era: ancient
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    - {fileID: 140492000370432750, guid: 9fb4ef7fb64dc4c408964e74ed2fe396, type: 3}
+    - {fileID: 2272102020387107810, guid: 7368b63df0629874cbee543535faae35, type: 3}
+    - {fileID: 7714441738996144815, guid: 2c610027744c00740ac082101ba71d40, type: 3}
+    - {fileID: 8282720113453043954, guid: fce807852a4acca419eeb3d5fd9a8ca7, type: 3}
+    - {fileID: 4090555171948344373, guid: c17535c038470134c9ad171e5f3ec2cc, type: 3}
+    - {fileID: 7134262039593392684, guid: 076ddcf3e89253c479418a861439e537, type: 3}
+    - {fileID: 2207132655017824807, guid: 793efaa16ff11374ba78433306a0cf92, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5335472702154139955, guid: ddb38b23b1fc63a479540a85ad753b8c, type: 3}
+    - {fileID: 1239679686346599296, guid: 29d14d81739277544976c1c0fad6c8c2, type: 3}
+    - {fileID: 7087206149285152842, guid: 94055c3936868454aa1b6ea44cc0bb11, type: 3}
+    - {fileID: 8019462622708141387, guid: 1496c843ff50fd245afcb63247a1b541, type: 3}
+    - {fileID: 4818764101993711798, guid: c7d8b5f41e0959c48bf00d10e779c62b, type: 3}
+    - {fileID: 6223919236092602174, guid: 1118526e2bbb1014caf1b3207a346fe5, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}
+  - era: medieval
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5457520718203635816, guid: de243834d3b1376448342bb337a1049d, type: 3}
+    - {fileID: 4612788670551400677, guid: 48c4d955d703cb94da4f2bc559cba0b7, type: 3}
+    - {fileID: 5848559838388159294, guid: 9c112192efc3a994f86dbdb85b4fc4d2, type: 3}
+    - {fileID: 12091907033042121, guid: 1cd49aebc0b529443b476a095ca49c61, type: 3}
+    - {fileID: 3959723964706341321, guid: 63647fae36bcafa46b35a68712120577, type: 3}
+    - {fileID: 65296727843408553, guid: daccb0902b553834299b0055dfe01ff3, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}
+  - era: renaissance
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5457520718203635816, guid: de243834d3b1376448342bb337a1049d, type: 3}
+    - {fileID: 4612788670551400677, guid: 48c4d955d703cb94da4f2bc559cba0b7, type: 3}
+    - {fileID: 5848559838388159294, guid: 9c112192efc3a994f86dbdb85b4fc4d2, type: 3}
+    - {fileID: 12091907033042121, guid: 1cd49aebc0b529443b476a095ca49c61, type: 3}
+    - {fileID: 3959723964706341321, guid: 63647fae36bcafa46b35a68712120577, type: 3}
+    - {fileID: 65296727843408553, guid: daccb0902b553834299b0055dfe01ff3, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}
+  - era: industrial
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5335472702154139955, guid: ddb38b23b1fc63a479540a85ad753b8c, type: 3}
+    - {fileID: 1239679686346599296, guid: 29d14d81739277544976c1c0fad6c8c2, type: 3}
+    - {fileID: 7087206149285152842, guid: 94055c3936868454aa1b6ea44cc0bb11, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}
+  - era: modern
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5335472702154139955, guid: ddb38b23b1fc63a479540a85ad753b8c, type: 3}
+    - {fileID: 1239679686346599296, guid: 29d14d81739277544976c1c0fad6c8c2, type: 3}
+    - {fileID: 7087206149285152842, guid: 94055c3936868454aa1b6ea44cc0bb11, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}
+  - era: near_future
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5335472702154139955, guid: ddb38b23b1fc63a479540a85ad753b8c, type: 3}
+    - {fileID: 1239679686346599296, guid: 29d14d81739277544976c1c0fad6c8c2, type: 3}
+    - {fileID: 7087206149285152842, guid: 94055c3936868454aa1b6ea44cc0bb11, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}
+  - era: mid_future
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5335472702154139955, guid: ddb38b23b1fc63a479540a85ad753b8c, type: 3}
+    - {fileID: 1239679686346599296, guid: 29d14d81739277544976c1c0fad6c8c2, type: 3}
+    - {fileID: 7087206149285152842, guid: 94055c3936868454aa1b6ea44cc0bb11, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}
+  - era: far_future
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5335472702154139955, guid: ddb38b23b1fc63a479540a85ad753b8c, type: 3}
+    - {fileID: 1239679686346599296, guid: 29d14d81739277544976c1c0fad6c8c2, type: 3}
+    - {fileID: 7087206149285152842, guid: 94055c3936868454aa1b6ea44cc0bb11, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}
+  - era: deep_future
+    treePrefabs:
+    - {fileID: 424116594599306519, guid: e452556cfbd18884fbb98df57d94523b, type: 3}
+    - {fileID: 1615862569150357787, guid: bbcc059444aa9a24ca4ae2e4ec6a3d42, type: 3}
+    - {fileID: 4222281969357408604, guid: 6b4b3f310f5dff844991fcf86cc67832, type: 3}
+    - {fileID: 6107227621667900227, guid: 8a7389a3348ac1d4aaa080dc69711d20, type: 3}
+    - {fileID: 4625561620497119114, guid: 899852215c036ad42b61396f17b56541, type: 3}
+    - {fileID: 9221189979580090930, guid: b7f607bfe7621c847abf486ff140b653, type: 3}
+    - {fileID: 7175052650772661354, guid: 76b3034baace72143b1606be82b91e65, type: 3}
+    - {fileID: 6300010298277293891, guid: ebce44df2d92b9442832ca4e98640b12, type: 3}
+    - {fileID: 3644720557619686978, guid: 8e9aeb7942540e54fae9e53579f96b03, type: 3}
+    - {fileID: 2060927768469625323, guid: 6ff91296d8f033d4598f3abb0a3f0dbc, type: 3}
+    - {fileID: 1239098822190937263, guid: 64c25b9c005bcc7418191722d67a95cf, type: 3}
+    - {fileID: 2856740193079719588, guid: f532d36952f6ed74292d19ae4381d61c, type: 3}
+    - {fileID: 1521319932559390546, guid: 915ac35a5aca31d4c9575633be0f6b82, type: 3}
+    rockPrefabs:
+    - {fileID: 100000, guid: d209be13548e70947bc39053977ce977, type: 3}
+    - {fileID: 100000, guid: 0f1e1518a80e562458930d8b2d0670d9, type: 3}
+    - {fileID: 100000, guid: 1679506d96acb1447aa6870479416bf8, type: 3}
+    - {fileID: 100000, guid: 940d55d4117386f4f9398ea3ff52d4cd, type: 3}
+    - {fileID: 100000, guid: f282d9fb9b399dd4384b20aba08642fb, type: 3}
+    - {fileID: 100000, guid: 5f36b57d675b1444cb2203b7a6cac6cb, type: 3}
+    - {fileID: 100000, guid: 55f94b3dfaaba26458dbf470efc8cfa4, type: 3}
+    - {fileID: 100000, guid: 27bfdb9a40efac94b969eaf77cea92d9, type: 3}
+    - {fileID: 100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
+    - {fileID: 100000, guid: fb5464049dae54247bf24c0e536cd6b4, type: 3}
+    - {fileID: 6869997719537023144, guid: 5487e7265f420f54280e940cdd3e335f, type: 3}
+    - {fileID: 6875165543768339273, guid: 86f4725bc6fa02843b4e89e244d102f6, type: 3}
+    - {fileID: 8331704037881844495, guid: be5acc26923a50843b50fcb900e299ec, type: 3}
+    - {fileID: 3220083927162093243, guid: 0ec7f548aaa54c34ba5bb266601fa9ef, type: 3}
+    - {fileID: 7114482570957525508, guid: 055eeb69fe495b44f94de70f97f89aa2, type: 3}
+    structurePrefabs:
+    - {fileID: 5335472702154139955, guid: ddb38b23b1fc63a479540a85ad753b8c, type: 3}
+    - {fileID: 1239679686346599296, guid: 29d14d81739277544976c1c0fad6c8c2, type: 3}
+    - {fileID: 7087206149285152842, guid: 94055c3936868454aa1b6ea44cc0bb11, type: 3}
+    cavePrefabs: []
+    waterPrefab: {fileID: 6013632388104371084, guid: 6e0965b76baec374d9a8e0c82f9033cb,
+      type: 3}
+    waterMaterial: {fileID: 2100000, guid: 2e7fa2e78657b1e429472827526c75ea, type: 2}
+    mountainPrefab: {fileID: 0}

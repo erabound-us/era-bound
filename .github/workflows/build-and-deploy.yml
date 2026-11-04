@@ -1,0 +1,66 @@
+name: Build and Deploy to itch.io
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build ERA Bound (Windows)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Cache Unity Library
+        uses: actions/cache@v4
+        with:
+          path: "Modular Multiplayer FPS/Library"
+          key: Library-StandaloneWindows64-${{ hashFiles('Modular Multiplayer FPS/Assets/**', 'Modular Multiplayer FPS/Packages/**', 'Modular Multiplayer FPS/ProjectSettings/**') }}
+          restore-keys: |
+            Library-StandaloneWindows64-
+            Library-
+
+      - name: Build
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          projectPath: "Modular Multiplayer FPS"
+          targetPlatform: StandaloneWindows64
+          buildName: ERA_Bound
+          buildsPath: build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ERA_Bound_Windows
+          path: build/StandaloneWindows64
+          retention-days: 7
+
+  deploy:
+    name: Deploy to itch.io
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ERA_Bound_Windows
+          path: build/StandaloneWindows64
+
+      - name: Deploy to itch.io
+        uses: KikimoraGames/itch-publish@v0.0.3
+        with:
+          butlerApiKey: ${{ secrets.BUTLER_API_KEY }}
+          gameData: build/StandaloneWindows64
+          itchUsername: erabound-us
+          itchGameId: era-bound
+          buildChannel: windows
+          buildNumber: ${{ github.run_number }}

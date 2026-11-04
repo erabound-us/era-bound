@@ -1,0 +1,50 @@
+# Unity generated
+Modular Multiplayer FPS/Library/
+Modular Multiplayer FPS/Temp/
+Modular Multiplayer FPS/obj/
+Modular Multiplayer FPS/Logs/
+Modular Multiplayer FPS/UserSettings/
+Modular Multiplayer FPS/Build/
+Modular Multiplayer FPS/.vsconfig
+
+# Build output
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.csproj
+*.sln
+
+# Backup copy — not needed in source control
+Modular Multiplayer FPS - Copy/
+
+# Large archives in root
+*.7z
+*.zip
+
+# Large source art files
+Modular Multiplayer FPS/Assets/Mesh/Materials/Tower Diffuse.psd
+Modular Multiplayer FPS/Assets/Mesh/Materials/M_Tower_Metallic.tga
+Modular Multiplayer FPS/Assets/Mesh/Materials/M_Tower_Normal.tga
+Modular Multiplayer FPS/Assets/Mesh/Materials/M_Tower_Albedo.tga
+
+# iOS-only Photon Voice lib — not needed for Windows builds
+Modular Multiplayer FPS/Assets/314 Arts/MarsFPSKit/Required/Photon/PhotonVoice/PhotonVoiceLibs/iOS/
+
+# Large terrain normal maps from TerrainSampleAssets
+Modular Multiplayer FPS/Assets/TerrainSampleAssets/
+
+# Symphonie URP archway — excluded from runtime (renders black)
+Modular Multiplayer FPS/Assets/Symphonie/
+
+# Python diagnostic scripts — not needed in source control
+*.py
+*.ps1
+*.txt

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70575bdd022015742aa7f0544ecb33fd, type: 3}
+  m_Name: Killstreaks Plugin
+  m_EditorClassIdentifier: 
+  killstreakSlots:
+  - possibleKillstreaks:
+    - {fileID: 11400000, guid: 33f89e4244a15164bb5421639404acf8, type: 2}
+    useKey: 54
+  - possibleKillstreaks:
+    - {fileID: 11400000, guid: d5ba89ce9ac5843468c21689d464bce4, type: 2}
+    useKey: 55
+  - possibleKillstreaks:
+    - {fileID: 11400000, guid: 386ff0958b5b6f049b9091f8ddd57d1e, type: 2}
+    useKey: 56
+  canGetKillstreakMultipleTimes: 0
+  botsCanUseInstantUseKillstreaks: 1
+  botsCanUseLocationKillstreaks: 1
+  displayWhenKillstreakIsUnlocked: 1
+  fallBackWeapon: 0000000000000000
+  useWeapons:
+  - {fileID: 11400000, guid: 7cf32b1000758eb49b00326988e93bf6, type: 2}
+  - {fileID: 11400000, guid: 713e93354dc1dbc488e31f731bb51f90, type: 2}
+  hudPrefab: {fileID: 1795850462011330, guid: bc7ff7c4f3b3750448a04a7e4593e47a, type: 2}
+  menuPrefab: {fileID: 1373104205499032, guid: 4c2e005415a3a3c4bb76762e29129603, type: 2}
+  locationChooserPrefab: {fileID: 1157859786444938, guid: 47eefdb94cc5f1b40afebd4a00c98ac4,
+    type: 2}

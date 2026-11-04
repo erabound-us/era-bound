@@ -1,0 +1,28 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    { "query": "path:game-design", "color": { "a": 1, "rgb": 14701138 } },
+    { "query": "path:technical", "color": { "a": 1, "rgb": 3897692 } },
+    { "query": "path:aws", "color": { "a": 1, "rgb": 16744272 } },
+    { "query": "path:maps", "color": { "a": 1, "rgb": 5025616 } },
+    { "query": "path:artifacts", "color": { "a": 1, "rgb": 9699539 } }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1,
+  "close": false
+}

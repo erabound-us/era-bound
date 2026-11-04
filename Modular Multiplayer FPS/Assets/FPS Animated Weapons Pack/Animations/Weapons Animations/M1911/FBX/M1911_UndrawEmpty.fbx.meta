@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 19ebaa5a7ca51754bbe920c9c90efc6c
+timeCreated: 1509628217
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.002
+    100008: Bone.003
+    100010: Bone.003_end
+    100012: Bone.004
+    100014: Bone.004_end
+    100016: Bone.005
+    100018: Bone.005_end
+    100020: Bone.006
+    100022: Bone.006_end
+    100024: Bone_end
+    100026: Camera
+    100028: frArms_skinMale_RightArm
+    100030: frArms_skinMale_RightArm.001
+    100032: frArms_skinMale_RightForeArm
+    100034: frArms_skinMale_RightForeArm.001
+    100036: frArms_skinMale_RightForeArm.001_end
+    100038: frArms_skinMale_RightForeArm_end
+    100040: frArms_skinMale_RightHand
+    100042: frArms_skinMale_RightHand.001
+    100044: frArms_skinMale_RightHandIndex1
+    100046: frArms_skinMale_RightHandIndex1.001
+    100048: frArms_skinMale_RightHandIndex2
+    100050: frArms_skinMale_RightHandIndex2.001
+    100052: frArms_skinMale_RightHandIndex3
+    100054: frArms_skinMale_RightHandIndex3.001
+    100056: frArms_skinMale_RightHandIndex3.001_end
+    100058: frArms_skinMale_RightHandIndex3_end
+    100060: frArms_skinMale_RightHandMiddle1
+    100062: frArms_skinMale_RightHandMiddle1.001
+    100064: frArms_skinMale_RightHandMiddle2
+    100066: frArms_skinMale_RightHandMiddle2.001
+    100068: frArms_skinMale_RightHandMiddle3
+    100070: frArms_skinMale_RightHandMiddle3.001
+    100072: frArms_skinMale_RightHandMiddle3.001_end
+    100074: frArms_skinMale_RightHandMiddle3_end
+    100076: frArms_skinMale_RightHandPinky1
+    100078: frArms_skinMale_RightHandPinky1.001
+    100080: frArms_skinMale_RightHandPinky2
+    100082: frArms_skinMale_RightHandPinky2.001
+    100084: frArms_skinMale_RightHandPinky3
+    100086: frArms_skinMale_RightHandPinky3.001
+    100088: frArms_skinMale_RightHandPinky3.001_end
+    100090: frArms_skinMale_RightHandPinky3_end
+    100092: frArms_skinMale_RightHandRing1
+    100094: frArms_skinMale_RightHandRing1.001
+    100096: frArms_skinMale_RightHandRing2
+    100098: frArms_skinMale_RightHandRing2.001
+    100100: frArms_skinMale_RightHandRing3
+    100102: frArms_skinMale_RightHandRing3.001
+    100104: frArms_skinMale_RightHandRing3.001_end
+    100106: frArms_skinMale_RightHandRing3_end
+    100108: frArms_skinMale_RightHandThumb1
+    100110: frArms_skinMale_RightHandThumb1.001
+    100112: frArms_skinMale_RightHandThumb2
+    100114: frArms_skinMale_RightHandThumb2.001
+    100116: frArms_skinMale_RightHandThumb3
+    100118: frArms_skinMale_RightHandThumb3.001
+    100120: frArms_skinMale_RightHandThumb3.001_end
+    100122: frArms_skinMale_RightHandThumb3_end
+    100124: frArms_skinMale_RightInHandPinky
+    100126: frArms_skinMale_RightInHandPinky.001
+    100128: frArms_skinMale_RightShoulder
+    100130: frArms_skinMale_RightShoulder.001
+    100132: frArms_skinMale_Spine
+    100134: frArms_skinMale_Spine.001
+    100136: //RootNode
+    100138: Others.001
+    100140: Plane
+    100142: Receiver.001
+    100144: Reloading.001
+    100146: Slide.001
+    400000: Armature
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.002
+    400008: Bone.003
+    400010: Bone.003_end
+    400012: Bone.004
+    400014: Bone.004_end
+    400016: Bone.005
+    400018: Bone.005_end
+    400020: Bone.006
+    400022: Bone.006_end
+    400024: Bone_end
+    400026: Camera
+    400028: frArms_skinMale_RightArm
+    400030: frArms_skinMale_RightArm.001
+    400032: frArms_skinMale_RightForeArm
+    400034: frArms_skinMale_RightForeArm.001
+    400036: frArms_skinMale_RightForeArm.001_end
+    400038: frArms_skinMale_RightForeArm_end
+    400040: frArms_skinMale_RightHand
+    400042: frArms_skinMale_RightHand.001
+    400044: frArms_skinMale_RightHandIndex1
+    400046: frArms_skinMale_RightHandIndex1.001
+    400048: frArms_skinMale_RightHandIndex2
+    400050: frArms_skinMale_RightHandIndex2.001
+    400052: frArms_skinMale_RightHandIndex3
+    400054: frArms_skinMale_RightHandIndex3.001
+    400056: frArms_skinMale_RightHandIndex3.001_end
+    400058: frArms_skinMale_RightHandIndex3_end
+    400060: frArms_skinMale_RightHandMiddle1
+    400062: frArms_skinMale_RightHandMiddle1.001
+    400064: frArms_skinMale_RightHandMiddle2
+    400066: frArms_skinMale_RightHandMiddle2.001
+    400068: frArms_skinMale_RightHandMiddle3
+    400070: frArms_skinMale_RightHandMiddle3.001
+    400072: frArms_skinMale_RightHandMiddle3.001_end
+    400074: frArms_skinMale_RightHandMiddle3_end
+    400076: frArms_skinMale_RightHandPinky1
+    400078: frArms_skinMale_RightHandPinky1.001
+    400080: frArms_skinMale_RightHandPinky2
+    400082: frArms_skinMale_RightHandPinky2.001
+    400084: frArms_skinMale_RightHandPinky3
+    400086: frArms_skinMale_RightHandPinky3.001
+    400088: frArms_skinMale_RightHandPinky3.001_end
+    400090: frArms_skinMale_RightHandPinky3_end
+    400092: frArms_skinMale_RightHandRing1
+    400094: frArms_skinMale_RightHandRing1.001
+    400096: frArms_skinMale_RightHandRing2
+    400098: frArms_skinMale_RightHandRing2.001
+    400100: frArms_skinMale_RightHandRing3
+    400102: frArms_skinMale_RightHandRing3.001
+    400104: frArms_skinMale_RightHandRing3.001_end
+    400106: frArms_skinMale_RightHandRing3_end
+    400108: frArms_skinMale_RightHandThumb1
+    400110: frArms_skinMale_RightHandThumb1.001
+    400112: frArms_skinMale_RightHandThumb2
+    400114: frArms_skinMale_RightHandThumb2.001
+    400116: frArms_skinMale_RightHandThumb3
+    400118: frArms_skinMale_RightHandThumb3.001
+    400120: frArms_skinMale_RightHandThumb3.001_end
+    400122: frArms_skinMale_RightHandThumb3_end
+    400124: frArms_skinMale_RightInHandPinky
+    400126: frArms_skinMale_RightInHandPinky.001
+    400128: frArms_skinMale_RightShoulder
+    400130: frArms_skinMale_RightShoulder.001
+    400132: frArms_skinMale_Spine
+    400134: frArms_skinMale_Spine.001
+    400136: //RootNode
+    400138: Others.001
+    400140: Plane
+    400142: Receiver.001
+    400144: Reloading.001
+    400146: Slide.001
+    2000000: Camera
+    2300000: Others.001
+    2300002: Receiver.001
+    2300004: Reloading.001
+    2300006: Slide.001
+    3300000: Others.001
+    3300002: Receiver.001
+    3300004: Reloading.001
+    3300006: Slide.001
+    4300000: Reloading.001
+    4300002: Slide.001
+    4300004: Others.001
+    4300006: Receiver.001
+    4300008: Plane
+    7400000: Camera|Empty
+    7400002: Camera|Group18387|Take 001|BaseLayer
+    7400004: Camera|reference|Take 001|BaseLayer
+    7400006: Armature|ArmatureAction
+    7400008: Armature|Draw_Empty
+    7400010: Armature|Empty
+    7400012: Armature|Group18387|Take 001|BaseLayer
+    7400014: Armature|Idle
+    7400016: Armature|Draw
+    7400018: Armature|Idle_Empty
+    7400020: Armature|reference|Take 001|BaseLayer
+    7400022: Armature|Reload
+    7400024: Armature|Reload_Empty
+    7400026: Armature|Shoot_last
+    7400028: Armature|Sprint_Loop_Empty
+    7400030: Armature|Undraw
+    7400032: UndrawEmpty
+    7400034: Armature|Walk_Loop_Empty
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Plane
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: UndrawEmpty
+      takeName: Armature|Undraw_Empty
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
