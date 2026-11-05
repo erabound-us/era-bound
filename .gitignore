@@ -38,11 +38,20 @@ Modular Multiplayer FPS/Assets/Mesh/Materials/M_Tower_Albedo.tga
 # iOS-only Photon Voice lib — not needed for Windows builds
 Modular Multiplayer FPS/Assets/314 Arts/MarsFPSKit/Required/Photon/PhotonVoice/PhotonVoiceLibs/iOS/
 
-# Large terrain normal maps from TerrainSampleAssets
+# Large terrain normal maps from TerrainSampleAssets — excluded from runtime (black flat quads)
 Modular Multiplayer FPS/Assets/TerrainSampleAssets/
 
 # Symphonie URP archway — excluded from runtime (renders black)
 Modular Multiplayer FPS/Assets/Symphonie/
+
+# SUIMONO water system — permanently disabled (causes player fall-through)
+Modular Multiplayer FPS/Assets/SUIMONO - WATER SYSTEM 2/
+
+# WaterWorks — permanently disabled (requires URP depth texture, darkens scene)
+Modular Multiplayer FPS/Assets/WaterWorks/
+
+# HDRP resources — project uses URP, not HDRP
+Modular Multiplayer FPS/Assets/HDRPDefaultResources/
 
 # Python diagnostic scripts — not needed in source control
 *.py
